@@ -1,2 +1,5 @@
 def wears_jacket(temp, raining):
-  ### your solution here
+  if temp<60 or raining:
+    return True
+  else:
+    return False

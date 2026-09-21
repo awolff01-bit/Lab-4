@@ -1,6 +1,6 @@
 def divisible_by_m(n,m):
   """
-  Return whether n is divisible by m.
+  ## add to this as well as the doctests below
 
   >>> divisible_by_m(3,2)
   False
@@ -10,7 +10,13 @@ def divisible_by_m(n,m):
   True
   >>> divisible_by_m(10,5)
   True
+  >>> divisible_by_m(7,3)
+  False
   """
-  return n % m == 0
+  if n%m==0:
+    return True
+  else:
+    return False
+  
   
   
